@@ -1,0 +1,137 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FILTER_WIPEOUT DIALOGEX 0, 0, 203, 377
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Wipeout"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "X:",IDC_STATIC,138,7,13,12
+    EDITTEXT        IDC_X,156,7,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 
+                    UDS_NOTHOUSANDS,156,23,40,11
+    LTEXT           "Y:",IDC_STATIC,138,39,14,10
+    EDITTEXT        IDC_Y,136,53,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_NOTHOUSANDS,185,39,11,28
+    DEFPUSHBUTTON   "OK",IDOK,6,356,55,14,WS_GROUP
+    PUSHBUTTON      "Show preview",IDPREVIEW,74,356,55,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,142,356,55,14
+    LTEXT           "W:",IDC_STATIC,8,7,10,12
+    EDITTEXT        IDC_W,23,7,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 
+                    UDS_NOTHOUSANDS,23,23,40,11
+    LTEXT           "H:",IDC_STATIC,9,39,14,10
+    EDITTEXT        IDC_H,6,53,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_NOTHOUSANDS,52,39,11,28
+    CONTROL         "",IDC_PAD,"bbPadControl",WS_TABSTOP,52,90,135,75
+    GROUPBOX        " POSITION ",IDC_STATIC,42,77,155,99
+    GROUPBOX        " SIZE ",IDC_STATIC,42,179,155,35
+    CONTROL         "",IDC_SIZEC,"bbPadControl",WS_TABSTOP,52,191,136,16
+    PUSHBUTTON      "Reset",IDC_RESET,78,31,45,16
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_NOSORTHEADER | 
+                    WS_TABSTOP,6,248,191,105,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Jump",IDC_JUMP,8,227,28,12
+    PUSHBUTTON      "Linear",IDC_LINEAR,36,227,28,12
+    PUSHBUTTON      "Smooth",IDC_SMOOTH,64,227,31,12
+    GROUPBOX        "Add Key",IDC_STATIC,6,217,92,25
+    PUSHBUTTON      "Selected",IDC_SELECTED,133,227,35,12
+    PUSHBUTTON      "All",IDC_ALL,168,227,26,12
+    GROUPBOX        "Delete",IDC_STATIC,130,217,67,25
+    CONTROL         "Slider1",IDC_STRENGTH,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,7,93,22,93
+    LTEXT           "Strength",IDC_STATIC,7,85,28,8
+    CTEXT           "",IDC_SSTREN,10,188,19,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FILTER_WIPEOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 370
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

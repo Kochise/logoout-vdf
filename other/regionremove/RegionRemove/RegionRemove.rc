@@ -1,0 +1,211 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FILTER_REGIONREMOVE DIALOGEX 0, 0, 293, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Region Remove Properties Page"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,250,135,25,15
+    PUSHBUTTON      "Preview",IDC_PREVIEW,170,135,65,15
+    EDITTEXT        IDC_STARTX,45,25,40,12
+    CONTROL         "Spin1",IDC_SPINX,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_HORZ | 
+                    UDS_NOTHOUSANDS,85,25,10,10
+    EDITTEXT        IDC_STARTY,45,45,40,12
+    CONTROL         "Spin1",IDC_SPINY,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_NOTHOUSANDS,85,45,
+                    11,15
+    EDITTEXT        IDC_WIDTH,45,86,39,12
+    CONTROL         "Spin1",IDC_SPINWIDTH,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_HORZ | 
+                    UDS_NOTHOUSANDS,84,85,10,10
+    EDITTEXT        IDC_HEIGHT,45,105,39,12
+    CONTROL         "Spin1",IDC_SPINHEIGHT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_NOTHOUSANDS,84,105,
+                    11,15
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,129,138,40,8
+    CONTROL         "",IDC_IGNORE_TOP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    139,35,10,8
+    CONTROL         "",IDC_IGNORE_BOTTOM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,55,10,8
+    CONTROL         "Left",IDC_IGNORE_LEFT,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,109,45,26,8
+    CONTROL         "Right",IDC_IGNORE_RIGHT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,149,45,33,8
+    LTEXT           "Bottom",IDC_STATIC,133,65,25,8
+    LTEXT           "Top",IDC_STATIC,135,23,20,8
+    GROUPBOX        "Ignore Edge",IDC_STATIC,105,10,80,70
+    GROUPBOX        "Location",IDC_STATIC,10,10,90,60
+    RTEXT           "X",IDC_STATIC,30,25,10,8
+    RTEXT           "Y",IDC_STATIC,30,45,10,8
+    GROUPBOX        "Size",IDC_STATIC,10,70,90,60
+    RTEXT           "Width",IDC_STATIC,15,86,23,8
+    RTEXT           "Height",IDC_STATIC,15,105,25,8
+    GROUPBOX        "Soft Edges",IDC_STATIC,105,80,80,50
+    CONTROL         "Enabled",IDC_SOFT_EDGES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,95,45,8
+    EDITTEXT        IDC_SOFT_PIX,135,110,34,12
+    CONTROL         "Spin1",IDC_SPIN_SOFT,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,159,110,11,14
+    RTEXT           "Pixels",IDC_STATIC,110,110,20,8
+    GROUPBOX        "Frame ON/OFF",IDC_STATIC,190,10,90,120
+    EDITTEXT        IDC_RANGE_LIST,195,20,80,43,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL
+    CONTROL         "Enabled",IDC_SOFT_ONOFF,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | WS_TABSTOP,200,95,45,10
+    EDITTEXT        IDC_SOFT_FRAMES,230,110,35,12
+    CONTROL         "Spin1",IDC_SPINONOFF,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,257,110,11,15
+    PUSHBUTTON      "Update",IDC_UPDATE_ONOFF,244,65,32,12
+    LTEXT           "Soft Transition",IDC_STATIC,195,80,60,10,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Frames",IDC_STATIC,200,110,25,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FILTER_REGIONREMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,28
+ PRODUCTVERSION 1,1,0,28
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "none\0"
+            VALUE "FileDescription", "RegionRemove\0"
+            VALUE "FileVersion", "1, 1, 0, 28\0"
+            VALUE "InternalName", "RegionRemove\0"
+            VALUE "LegalCopyright", "Copyright © 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RegionRemove.vdf\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "none RegionRemove\0"
+            VALUE "ProductVersion", "1, 1, 0, 28\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc09, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
